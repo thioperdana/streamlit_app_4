@@ -6,8 +6,7 @@ st.header("THIO PERDANA")
 col_1, col_2 = st.columns([1,2])
 
 with col_1:
-    st.image("assets/images/image.jpg")
-
+    st.image("assets/images/image.jpg", width=40)
 
     st.subheader("Detail Pribadi")
     st.text("Nama: Thio Perdana")
