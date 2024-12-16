@@ -3,6 +3,10 @@ import time
 from src import recomendation_system
 from pathlib import Path
 
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 path_data = "data"
 filename = "data.csv"
 my_file = Path("./data/chroma.sqlite3")

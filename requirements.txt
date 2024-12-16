@@ -6,3 +6,4 @@ bokeh==2.4.3
 numpy
 seaborn
 chromadb
+pysqlite3-binary
