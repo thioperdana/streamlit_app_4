@@ -5,3 +5,4 @@ bokeh==2.4.3
 numpy==1.24.3
 seaborn
 chromadb
+sqlite3 >= 3.35.0
